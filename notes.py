@@ -57,3 +57,32 @@ for x in r:
 mydict = {"name": "Alice", "age": 25, "city": "New York"}
 print("Dictionary value:", mydict)
 print(mydict["name"])
+
+#  Set is a collection which is unorder,unchangeable and uunindexed,no duplicate values
+# Set Example 
+set={1,4,2,5,3,6,5} #It auto arange the set and remove the dublicate value
+print(set)
+
+s=frozenset({"yo","hi","go","no"}) #its a frozen set
+print("its a frozen set",s)
+try:
+    s[1] = "bruh"
+except Exception as e:
+    print(e)
+
+a=4//2
+b=9//2
+print(a,b)
+
+
+# is operator
+a = 5
+b = 10
+print(a is b)
+
+#in operator
+a = 5
+b = [10,5,4,4,4,3,32,34,242]
+print(a in b)
+
+
