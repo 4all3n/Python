@@ -15,6 +15,7 @@ def main():
         print(f"INTEGER DIVISION: {a//b}")
 
     elif choice == 2:
+        print("Enter the number to check greater then.\n")
         a = int(input("Enter the first number: "))
         b = int(input("Enter the second number: "))
         if a>b:
@@ -25,6 +26,7 @@ def main():
             print("a and b are equal")
 
     elif choice == 3:
+        print("Enter the number to check if its equal to 0.\n")
         a = int(input("Enter the first number: "))
         b = int(input("Enter the second number: "))
         if a and b == 0:
@@ -34,7 +36,8 @@ def main():
         
 
     elif choice == 4:
-        bitwise()
+        print("Bitwise Operators\n")
+        a = int(input("Enter the first number: "))
     elif choice == 5:
         assignment()
     elif choice == 6:
