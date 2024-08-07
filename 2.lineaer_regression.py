@@ -15,8 +15,8 @@ b0 = np.mean(y) - b1 * np.mean(x)
 print(f"Estimated coefficients:\nb0 = {b0}\nb1 = {b1}")
 
 #Plot data pints and regression line
-plt.scatter(x,y, color="blue", lable="data points")
-plt.plot(x, b0 + b1*x, color="red", lable="regression line")
+plt.scatter(x,y, color="blue", label="data points")
+plt.plot(x, b0 + b1*x, color="red", label="regression line")
 plt.xlabel("x")
 plt.ylabel("y")
 plt.legend()
