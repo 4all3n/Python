@@ -75,14 +75,114 @@ b=9//2
 print(a,b)
 
 
-# is operator
+# is operator identity operator
 a = 5
 b = 10
 print(a is b)
 
-#in operator
+#in operator membership operator
 a = 5
 b = [10,5,4,4,4,3,32,34,242]
 print(a in b)
 
 
+# Date 8/8/24 
+# Functions of python
+# A function is a block of code which only runs when it is called. 
+# You can pass data, known as parameters, into a function. A function can return data as a result.
+
+#syntax
+# def function_name(parameters):
+#     """Docstring: Docstring explains what the function does"""  
+#     Body of the function
+#     return [expression]
+
+#example
+print("Function example")
+def add(a, b):
+    """This function adds two numbers"""
+    return a + b
+# Call the function
+#to call a function use the function name followed by the parenthesis
+print(add(5, 10))
+
+#Argument
+#Information passed to a function is called an argument.
+#The number of arguments that a function must or can receive is called the function's parameter.
+
+#perameters 
+#Parameters are variables that are passed to a function.
+#Parameters are specified after the function name, inside the parentheses.
+#Perameters vs Arguments
+#A parameter is the variable listed inside the parentheses in the function definition.
+#An argument is the value that is sent to the function when it is called.
+#no of arguments should be equal to no of parameters
+
+#Key Components
+#1. Function name :-The unique identifier of the function
+#2. Parameters :-The data type of the parameters. It allows you to pass data to the function
+#3. Docstring :-The description of the function it is optional
+#4. Function body :-The code that is executed when the function is called
+#5. Return value :-The value that the function returns. If no return value is specified, the function will return None
+
+#Benefit of function
+#1. Reusability :- Allows you to use the same code multiple times
+#2. Modularity :-Breaking down the code into smaller parts which is easier to maintain
+#3. Readability :- The code is easier to understand
+#4. Debugging   :- The code is easier to debug
+
+#Types of functions
+#1. Function with Arguments and return value
+#2. Function without Arguments and return value
+#3. Function with Arguments and without return value
+#4. Function without Arguments and without return value
+
+#Syntax for with arguments and return value
+# def function_name(parameters1,parameters2):
+#     """Docstring: Docstring explains what the function does (optional)"""  
+#     Body of the function
+#     return return_value
+
+#example
+print("Function with arguments and return value")
+def add(a, b):
+    """This function adds two numbers"""
+    return a + b
+print(add(5, 10))
+
+#Syntax for without arguments and return value
+# def function_name():
+#     """Docstring: Docstring explains what the function does (optional)"""  
+#     Body of the function
+#     return return_value
+
+#example
+print("Function without arguments and return value")
+def add():
+    """This function adds two numbers"""
+    return 5 + 10
+print(add())
+
+#Syntax for with arguments and without return value
+# def function_name(parameters1,parameters2):
+#     """Docstring: Docstring explains what the function does (optional)"""  
+#     Body of the function
+
+#example
+print("Function with arguments and without return value")
+def add(a, b):
+    """This function adds two numbers"""
+    print(a + b)
+add(1,2)    
+
+#Syntax for without arguments and without return value
+# def function_name():
+#     """Docstring: Docstring explains what the function does (optional)"""  
+#     Body of the function
+
+#example
+print("Function without arguments and without return value")
+def add():
+    """This function adds two numbers"""
+    print(5 + 10)
+add()    
