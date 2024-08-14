@@ -186,3 +186,15 @@ def add():
     """This function adds two numbers"""
     print(5 + 10)
 add()    
+
+
+
+#lambda
+#A lambda function is a small anonymous function.
+#A lambda function can take any number of arguments, but can only have one expression.
+#Syntax
+# lambda parameters: expression
+#example
+print("Lambda example")
+x = lambda a : a + 10
+print(x(5))
