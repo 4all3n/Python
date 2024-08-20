@@ -198,3 +198,117 @@ add()
 print("Lambda example")
 x = lambda a : a + 10
 print(x(5))
+
+
+
+#Date 19/8/24
+print("\nDate 19/8/24\n")
+#unpacking Tuple
+#Python allows you to unpack a tuple
+#It is a way to assign the values of tuple to multiple variables in single line
+#Syntax
+# var1, var2, var3 = tuple
+#example
+print("Unpacking Tuple example")
+a, b, c = (10, 20, 30)
+print(a)
+print(b)
+print(c)
+
+
+#unpacking List
+#Python allows you to unpack a list
+#It is a way to assign the values of list to multiple variables in single line
+#Syntax
+# var1, var2, var3 = list
+#example
+print("Unpacking List example")
+a, b, c = [10, 20, 30]
+print(a)
+print(b)
+print(c)
+
+#unpacking Dictionary
+#Python allows you to unpack a dictionary
+#It is a way to assign the values of dictionary to multiple variables in single line
+#Syntax
+# var1, var2, var3 = dictionary
+#example
+print("Unpacking Dictionary example")
+mydict= {'x': 10, 'y': 20, 'z': 30}
+print("Dictionary:- ",mydict)
+
+print("unpacking Dictionary using keys or just mydict")
+a, b, c = mydict # or u can use a, b, c = mydict.keys() #gives key
+print(a)
+print(b)
+print(c)
+
+print("Unpacking Dictionary using items")
+a, b, c = mydict.items()#gives key and value
+print(a)
+print(b)
+print(c)
+
+print("Unpacking Dictionary using values")
+a, b, c = mydict.values()#gives value
+print(a)
+print(b)
+print(c)
+
+
+
+#date 20/8/24
+print("\nDate 20/8/24\n")
+#Mathematical Functions
+#Python's standard library provides many mathematical functions.
+#Syntax
+#First import math by using 'import math'
+#example
+#Absolute value
+print("Absolute value example")
+import math
+a = -10
+print(math.fabs(a))
+
+#max
+#Returns the largest number
+#Syntax
+#max(a, b, c)
+#max(iterable, *args)
+#example
+print("max example")
+a = 10
+b = 20
+c = 30
+print(max(a, b, c))
+
+#min
+#Returns the smallest number
+#Syntax
+#min(a, b, c)
+#min(iterable, *args)
+#example
+print("min example")
+a = 10
+b = 20
+c = 30
+print(min(a, b, c))
+
+#other mathematical functions
+#ceil gives the smallest integer that is greater than or equal to the number
+#floor gives the largest integer that is less than or equal to the number
+#round gives the nearest integer
+#sqrt gives the square root
+
+
+#Coding style in python 
+#1. Indentation (4 spaces)
+#2. Line length (no more than 80 characters per line) use parentheses to group statements
+#3. Blank lines (2 blank lines) use blank lines to separate functions and classes from each other
+#4. import (at the top) Always import the module at the top of the file or before using its package in your code
+#5. Comments (use # for single line comments)
+#6. Naming conventions (For variables, functions, Attributes and classes use lower_case_with_underscores)
+#7. Docstrings (For functions and classes use """docstring""" to add a description of the function or class)     
+#8. Whitespace in Expression and Statement (Avoid spaces before and after =, :, ;)
+#9. Exception Handling (try, except, finally) 
