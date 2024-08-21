@@ -5,15 +5,6 @@ import os
 
 
 def check_file_permissions(file_path):
-    """
-    Check the file permissions for the given file path.
-
-    Args:
-        file_path (str): The path of the file to check.
-
-    Returns:
-        None
-    """
     # Check if the file exists
     if not os.path.exists(file_path):
         print(f"The file {file_path} does not exist.")
