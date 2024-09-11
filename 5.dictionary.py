@@ -24,10 +24,10 @@ print("Accessed items: ",name,age)
 
 #use get() - the get() method returns the value of the item with the specified key
 
-city=mydict.get("City:","Unknown")
+city=mydict.get("City","Unknown")
 country=mydict.get("Country","Not Specified")
 
-print("City: ",city,"Country: ",country)
+print(" City: ",city,"\n","Country: ",country)
 
 #Change Value
 mydict["age"]=35
