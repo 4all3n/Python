@@ -312,3 +312,54 @@ print(min(a, b, c))
 #7. Docstrings (For functions and classes use """docstring""" to add a description of the function or class)     
 #8. Whitespace in Expression and Statement (Avoid spaces before and after =, :, ;)
 #9. Exception Handling (try, except, finally) 
+
+
+#Date 17/9/24
+print("\nDate 17/9/24\n")
+
+#Numpy
+#Numpy is a package for scientific computing in Python.
+#It provides support for large, multi-dimensional arrays and matrices, along with a collection of routines for fast operations on these arrays.
+#Numpy is fast, and it is open source.
+#Numpy is used in data science, machine learning, and scientific computing.
+#Numpy has many features that are not available in other languages.
+#fullform of numpy is numerical python
+#Full documentation is available at https://numpy.org/doc/stable/
+print("Numpy")
+#Numpy Array indexing
+#Syntax
+# array[0]
+#example
+print("Numpy Array indexing example")
+import numpy as np
+array = np.array([10, 20, 30, 40, 50])
+print(array[0])
+
+#2D Numpy Array indexing
+#Syntax
+# array[0, 1]
+#example
+print("2D Numpy Array indexing example")
+import numpy as np
+array = np.array([[10, 20, 30, 40, 50], [60, 70, 80, 90, 100]])
+print(array[0, 1])
+
+#3D Numpy Array indexing
+#Syntax
+# array[0, 1, 2]
+#example
+print("3D Numpy Array indexing example")
+import numpy as np
+array = np.array([[[10, 20, 30, 40, 50], [60, 70, 80, 90, 100]], [[10, 20, 30, 40, 50], [60, 70, 80, 90, 100]]])
+print(array[0, 1, 2])
+
+#negative indexing for 2D Numpy Array
+#Syntax
+# array[-1, -1]
+#example
+print("negative indexing for 2D Numpy Array example")
+import numpy as np
+array = np.array([[10, 20, 30, 40, 50], [60, 70, 80, 90, 100]])
+print(array[-2, -3])
+
+
