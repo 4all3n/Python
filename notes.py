@@ -334,6 +334,12 @@ print("Numpy Array indexing example")
 import numpy as np
 array = np.array([10, 20, 30, 40, 50])
 print(array[0])
+print("Adding 2 to every element")
+print("Old array :-",array)
+new_arr = array + 2 #Adds 2 to each elements
+print("New arrey :-",new_arr )
+
+
 
 #2D Numpy Array indexing
 #Syntax
@@ -363,3 +369,40 @@ array = np.array([[10, 20, 30, 40, 50], [60, 70, 80, 90, 100]])
 print(array[-2, -3])
 
 
+
+print("19/9/24")
+#mthods to create an arrey using num py
+#1.
+arr = np.array([1,2,3,4,5,6])
+
+#2.
+zero_arr =np.zeros(5)#creates an array of zero with 5 elemnts
+
+#3.
+once_arr = np.ones(3) #creats an arrey of 1 with 3 elemnts
+
+#4.
+rand_arr = np.random.rand(3,3)#Creats a 3x3 arrey with random values between 0 and 1
+print("\nArray:- ",arr,"\n","Zero array:- ",zero_arr,"\n","Once array:- ",once_arr,"\n","Random array:-\n",rand_arr)
+
+#5.
+range_arr = np.arange(1,10,2)#creates an arrey with values [0,2,4,6,8]
+print("range_arr:- ",range_arr)
+
+
+#Adding the value of arreys
+print("Adding the elements of an arrey")
+a= np.array([1,2,3])
+b= np.array([4,5,6])
+c= a+b
+d= a*b
+print("Array one:- ",a,"\n","Second arrey",b)
+print("added values:- ",c)
+print("Multiplying values",d)
+
+#Slicing of an array
+arr= np.array([0,1,2,3,4,5])
+print("array is:- ",arr)
+
+sub_arr=arr[2:5]
+print("Sliced array from 2 to 5:- ",sub_arr)
