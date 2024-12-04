@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 #Let's Load the dataset (replace 'your_file.csv' with your dataset file)
-data = pd.read_csv(r"./Book1.csv")#now extracting data for the plot
+data = pd.read_csv(r"C:\Users\Administrator\Desktop\GIt\Python\Book1.csv")#now extracting data for the plot
 car_brands = data['car_brand']
 num_car_sold = data['num_cars_sold']
 
@@ -18,3 +18,4 @@ plt.xticks(rotation=90) #rotate the x-axis labels for better readability
 #displaying the plot
 plt.tight_layout()
 plt.show()
+
