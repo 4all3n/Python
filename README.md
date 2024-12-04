@@ -7,4 +7,4 @@ A concise collection of notes, code snippets, and best practices for Python prog
 To get started, clone this repository:
 
 ```bash
-git clone https://github.com/HPSingh7146/python-notes.git
+https://github.com/4all3n/Python
